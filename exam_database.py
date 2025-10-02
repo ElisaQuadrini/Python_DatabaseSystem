@@ -56,6 +56,6 @@ for r in rows:
         )
         count += 1
 
-# chect
+# check
 df3 = pd.read_sql('SELECT * FROM PROVA', con=conn) 
 print(df3)
